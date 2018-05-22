@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body ng-app="CombineModule">
+        <div>
+            <h1>myDiv1</h1>
+            <div ng-controller="MyControllerA">
+               <ul>
+               		<li ng-repeat="skill in skills | filter:name"><a href="#">{{skill.name | uppercase}}</a></li>
+               </ul>
+            </div>
+        </div>
+
+        <div>
+            <h1>myDiv2</h1>
+            <div ng-controller="MyControllerB">
+                {{name}}
+            </div>
+        </div>
+        <script src="js/angular.min.js"></script>
+        <script>
+          var moduleA = angular.module("MyModuleA", []);
+          moduleA.controller("MyControllerA", function($scope, $http) {
+             var url="data.txt";
+	   		$http.get(url).success( function(response) {
+	  		 $scope.skills = response;
+          });
+
+          var moduleB = angular.module("MyModuleB", []);
+          moduleB.controller("MyControllerB", function($scope) {
+              $scope.name = "Steve B";
+          });
+
+          angular.module("CombineModule", ["MyModuleA", "MyModuleB"]);
+        </script>
+    </body>
+</html>

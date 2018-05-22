@@ -1,0 +1,20 @@
+[
+{"name" : "Photoshop"}, 
+{"name" : "illustrator"},
+{"name" : "Balsamiq"},
+{"name" : "Flash Animation"},
+{"name" : "HTML 4/5"},
+{"name" : "CSS 2/3"},
+{"name" : "Bootstrap"},
+{"name" : "Wordpress"},
+{"name" : "JavaScript"},
+{"name" : "jQuery"},
+{"name" : "Angular JS"},
+{"name" : "Node JS"},
+{"name" : "Less"},
+{"name" : "Sass"},
+{"name" : "Backbone JS"},
+{"name" : "Extjs"},
+{"name" :"BPM Coach Design"},
+{"name" : "Websphere content management"}
+]
