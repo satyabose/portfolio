@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clientTitle h2 {
+font-size: 16px;
+}
+
+h3 {
+font-size: 18px;	
+}
+
+h4 {
+font-size: 16px;	
+}
+
+.dl-horizontal.wide dt, .dl-horizontal dt{
+    width: auto;
+	 float: none;
+	margin-top: 5px;	
+}
+
+.dl-horizontal.wide dd {
+    margin-left: 0px;
+}
+
+.articleImage {
+    float: none;
+    width: auto;
+	 margin-left: 0px;
+}
+
+.topMargin-xs {
+	margin-top: 10px;
+}
+
+/* hide nivo slider nav arrows */
+.theme-default a.nivo-nextNav, .theme-default a.nivo-prevNav {
+	display: none;
+}

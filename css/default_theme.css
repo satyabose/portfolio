@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container { 
+  max-width: none !important;
+	/* width: 980px !important;  bootstrap responsive override */
+}
+
+.topMargin {
+	margin-top: 10px;	
+}
+
+.topMarginDbl {
+	margin-top: 20px;	
+}
+
+.bottomMargin {
+	margin-bottom: 10px;	
+}
+
+.bottomMarginDbl {
+	margin-bottom: 20px;	
+}
+
+.clientLogo {
+float: left;
+margin-right: 20px;
+}
+
+.clientTitle {
+float: left;
+}
+
+.clientTitle h2 {
+margin-top: 8px;
+}
+
+.breadcrumb {
+ padding: 0px;
+ background-color: transparent;
+ font-size: 11px;
+}
+
+#RSI-topNav .navbar-toggle {
+    float: right;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.navbar-collapse {
+    max-height: none; /* remove scrolling area */
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #428bca;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #428bca;
+}
+
+#RSI-footer {
+border-top: 2px dotted #04476D;
+margin-top: 20px;
+color: #999999;
+
+}
