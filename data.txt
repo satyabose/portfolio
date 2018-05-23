@@ -10,11 +10,8 @@
 {"name" : "JavaScript"},
 {"name" : "jQuery"},
 {"name" : "Angular JS"},
-{"name" : "Node JS"},
 {"name" : "Less"},
 {"name" : "Sass"},
-{"name" : "Backbone JS"},
-{"name" : "Extjs"},
 {"name" :"BPM Coach Design"},
 {"name" : "Websphere content management"}
 ]
