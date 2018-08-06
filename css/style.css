@@ -92,7 +92,7 @@ article h2 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-
 #rightmenu ul {float:left;width:100%;margin:0;padding:0;}
 #rightmenu ul li {list-style:none;margin:0;padding:0;border-bottom:1px solid #d5d5d5;float:left;width:100%;}
 #rightmenu ul li.first {}
-#rightmenu ul li span {font:bold 14px/18px Arial, Helvetica, sans-serif;color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
+#rightmenu ul li span {font:bold 14px/18px Arial, Helvetica, text-transform: uppercase; sans-serif;color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
 #rightmenu ul li span:hover {text-decoration:none;background:#f8f8f8; color:#677900}
 #rightmenu ul li span.active {text-decoration:none;background:#dcdcdc; color:#677900}
 #rightmenu ul li span img {margin: 0 10px 0 0;width: 32px;border-radius: 6px;}
