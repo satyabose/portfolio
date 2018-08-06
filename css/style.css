@@ -179,7 +179,7 @@ a.next{height:13px;width:11px;background:url(../images/play.png) repeat -13px to
 #scrollbar1 .viewport {width:98%; min-height: 445px;overflow: hidden;position: relative;}
 #scrollbar1 .viewport:hover{ overflow:auto;}
 #scrollbar1 .overview1 {list-style: none;position: absolute;left: 0;top: 0;padding: 0;margin: 0; width:100%;}
-#scrollbar1 .scrollbar {background:#dcdcdc;position: relative;background-position: 0 0;float: right;width: 3px;}
+#scrollbar1 .scrollbar {background:#dcdcdc;position: relative;background-position: 0 0;float: right;width: 3px; display: none;}
 #scrollbar1 .track {background:#dcdcdc;height: 100%;width:3px;position: relative;padding: 0 1px;}
 #scrollbar1 .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.gif) repeat-y 50% 100%; height: 32px; width: 3px; cursor: pointer; overflow: hidden; position: absolute; top:1px; left: 1px !important; }
 #scrollbar1 .thumb .end { background: transparent url(../images/bg-scrollbar-thumb-y.gif) no-repeat 50% 0; overflow: hidden; height: 5px; width: 3px; }
