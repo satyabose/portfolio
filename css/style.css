@@ -286,6 +286,7 @@ width:auto;
 	margin: 0px;
 	
 }
+.design-by{color: grey;font-weight: bold;font-size: 0.9em;}
 .modal-header{ background:#97AE0E; color:#ffffff; border-radius: 5px 5px 0 0;}
 .modal-body ul {padding:12px;}
 .modal-body img{margin: auto !important;}
