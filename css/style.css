@@ -90,10 +90,10 @@ article h2 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-
 #search {padding:6px 14px;margin:0 10px;float:left;width:90%;border:1px solid #c1c1c1;font: normal 13px Arial, Helvetica, sans-serif; color:#9c9c9d; background: #FFFFFF;-moz-box-shadow:inset 0px 0px 3px #929191;-webkit-box-shadow:inset 0px 0px 3px #929191;box-shadow:inset 0px 0px 3px #929191;-moz-border-radius:6px 6px 6px 6px;-webkit-border-radius:6px 6px 6px 6px;border-radius:6px 6px 6px 6px;behavior:url(PIE.htc);position:relative;}
 #rightmenu {float:left;width:100%;margin:0;padding:0px 10px;}
 #rightmenu ul {float:left;width:100%;margin:0;padding:0;}
-#rightmenu ul li {list-style:none;margin:0;padding:0;border-bottom:1px dashed #aeaeae;float:left;width:100%;}
+#rightmenu ul li {list-style:none;margin:0;padding:0;border-bottom:1px solid #d5d5d5;float:left;width:100%;}
 #rightmenu ul li.first {}
 #rightmenu ul li span {font:bold 12px/18px Arial, Helvetica, sans-serif;color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
-#rightmenu ul li span:hover {text-decoration:none;background:#dcdcdc; color:#677900}
+#rightmenu ul li span:hover {text-decoration:none;background:#f8f8f8; color:#677900}
 #rightmenu ul li span.active {text-decoration:none;background:#dcdcdc; color:#677900}
 
 /* content */
