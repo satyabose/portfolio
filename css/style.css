@@ -92,10 +92,10 @@ article h2 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-
 #rightmenu ul {float:left;width:100%;margin:0;padding:0;}
 #rightmenu ul li {list-style:none;margin:0;padding:0;border-bottom:1px solid #d5d5d5;float:left;width:100%;}
 #rightmenu ul li.first {}
-#rightmenu ul li span {font:bold 12px/18px Arial, Helvetica, sans-serif;color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
+#rightmenu ul li span {font:bold 14px/18px Arial, Helvetica, sans-serif;color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
 #rightmenu ul li span:hover {text-decoration:none;background:#f8f8f8; color:#677900}
 #rightmenu ul li span.active {text-decoration:none;background:#dcdcdc; color:#677900}
-
+#rightmenu ul li span img {margin: 0 10px 0 0;width: 32px;border-radius: 6px;}
 /* content */
 .content {float:left;width:100%;margin:0 0 29px 0;padding:0;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px;border-radius:0 0 2px 2px;background:#FFFFFF;-moz-box-shadow:0 0 6px 0.1px #d4d2d2;box-shadow:0 0 6px 0.1px #d4d2d2;-webkit-box-shadow:0 0 6px 0.1px #d4d2d2;behavior:url(PIE.htc);position:relative;border:1px solid #dbdada;}
 .content h1 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;behavior:url(PIE.htc);position:relative;padding:9px 13px 8px 13px;margin:-2px 0 0px 0;background:url(../images/heading-line.png) repeat-x left bottom #2a2a2e;border-bottom:8px solid #2A2A2E;text-transform:uppercase;}
