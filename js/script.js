@@ -4,11 +4,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 80,
-		color: "orange",
+		color: "#FDAD00",
 		},
 		{
 		value: 20,
-		color: "lightgrey",
+		color: "#E5E3E3",
 		}
 	];
 
@@ -19,11 +19,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 60,
-		color: "darkgrey",
+		color: "#3E3E3E",
 		},
 		{
 		value: 40,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -34,11 +34,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 100,
-		color: "cornflowerblue",
+		color: "#96C5F7",
 		},
 		{
 		value: 0,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -49,11 +49,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 90,
-		color: "pink",
+		color: "#FF7D00",
 		},
 		{
 		value: 10,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -64,11 +64,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 80,
-		color: "cornflowerblue",
+		color: "#A119D3",
 		},
 		{
 		value: 20,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -79,11 +79,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 50,
-		color: "cornflowerblue",
+		color: "#B31784",
 		},
 		{
 		value: 50,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -94,11 +94,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 90,
-		color: "cornflowerblue",
+		color: "#F16529",
 		},
 		{
 		value: 10,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -109,11 +109,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 80,
-		color: "cornflowerblue",
+		color: "#0170BA",
 		},
 		{
 		value: 20,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -124,11 +124,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 60,
-		color: "cornflowerblue",
+		color: "#CC6699",
 		},
 		{
 		value: 40,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -139,11 +139,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 80,
-		color: "cornflowerblue",
+		color: "#563D7C",
 		},
 		{
 		value: 20,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -154,11 +154,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 70,
-		color: "cornflowerblue",
+		color: "#183555",
 		},
 		{
 		value: 30,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -169,11 +169,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 60,
-		color: "cornflowerblue",
+		color: "#63A814",
 		},
 		{
 		value: 40,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -184,11 +184,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 30,
-		color: "cornflowerblue",
+		color: "#C4473A",
 		},
 		{
 		value: 70,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
@@ -199,11 +199,11 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 50,
-		color: "cornflowerblue",
+		color: "#00769D",
 		},
 		{
 		value: 50,
-		color: "lightgrey",			
+		color: "#E5E3E3",			
 		}
 	];
 
