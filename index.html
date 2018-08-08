@@ -36,7 +36,26 @@
 	$('[data-toggle="tooltip"]').tooltip();
 		});
 		
-	</script>	
+	</script>
+	<script>
+		var ctxD = document.getElementById("doughnutChart").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
+        datasets: [
+            {
+                data: [300, 50, 100, 40, 120],
+                backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+		</script>
 </head>
 <body id="main-wrapper" ng-controller="SearchController" >
 <header>
@@ -98,7 +117,9 @@
 			 <div class="overview1">
           <nav id="rightmenu">
             <ul>
-		<li><span><img src="images/icons/sketch-icon.jpg" border="0"/>Sketch</span></li>
+		<li><span><img src="images/icons/sketch-icon.jpg" border="0"/>Sketch</span>
+		    <canvas id="doughnutChart"></canvas>
+		</li>
 		<li><span><img src="images/icons/balsamiq.png" border="0"/>Balsamiq</span></li>
 		<li><span><img src="images/icons/ps.jpg" border="0"/>Photoshop</span></li>
 		<li><span><img src="images/icons/il.png" border="0"/>Illustrator</span></li>
