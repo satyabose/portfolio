@@ -14,7 +14,7 @@ h1{margin:0;padding:0;}
 a{outline:none !important;}
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 4px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -84,7 +84,7 @@ header {
  
 /* sidebar */
 aside {float:left;width:100%;margin:0;padding:0;}
-aside article{float:left;width:100%;margin:0 0 31px 0;padding:0;-moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;background:#FFFFFF;-moz-box-shadow:0 0 6px 0.1px #d4d2d2;box-shadow:0 0 6px 0.1px #d4d2d2;-webkit-box-shadow:0 0 6px 0.1px #d4d2d2;behavior:url(PIE.htc);position:relative;}
+aside article{float:left;width:100%;margin:0 0 31px 0;padding:6px 0;-moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;background:#FFFFFF;-moz-box-shadow:0 0 6px 0.1px #d4d2d2;box-shadow:0 0 6px 0.1px #d4d2d2;-webkit-box-shadow:0 0 6px 0.1px #d4d2d2;behavior:url(PIE.htc);position:relative;}
 .product {float:left;width:198px;margin:0;padding:0;-moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;background:#FFFFFF;-moz-box-shadow:0 0 6px 0.1px #d4d2d2;box-shadow:0 0 6px 0.1px #d4d2d2;-webkit-box-shadow:0 0 6px 0.1px #d4d2d2;behavior:url(PIE.htc);position:relative;}
 article h2 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;behavior:url(PIE.htc);position:relative;padding:9px 13px 8px 13px;margin:-2px 0 17px 0;background:url(../images/heading-line.png) repeat-x left bottom #2a2a2e;border-bottom:6px solid #2A2A2E;}
 #search {padding:6px 14px;margin:0 10px;float:left;width:90%;border:1px solid #c1c1c1;font: normal 13px Arial, Helvetica, sans-serif; color:#9c9c9d; background: #FFFFFF;-moz-box-shadow:inset 0px 0px 3px #929191;-webkit-box-shadow:inset 0px 0px 3px #929191;box-shadow:inset 0px 0px 3px #929191;-moz-border-radius:6px 6px 6px 6px;-webkit-border-radius:6px 6px 6px 6px;border-radius:6px 6px 6px 6px;behavior:url(PIE.htc);position:relative;}
@@ -175,7 +175,14 @@ a.next{height:13px;width:11px;background:url(../images/play.png) repeat -13px to
 }
 
 /* Tiny Scrollbar */
-#scrollbar1 {width:100%;margin:0;padding:14px 6px 14px 0;float:left}
+#scrollbar1 {
+	width: 98%;
+	margin: 0;
+	padding: 2px;
+	float: left;
+	overflow: auto;
+	height: 460px;
+}
 #scrollbar1 .viewport {width:98%; min-height: 445px;overflow: hidden;position: relative;}
 #scrollbar1 .viewport:hover{ overflow:auto;}
 #scrollbar1 .overview1 {list-style: none;position: absolute;left: 0;top: 0;padding: 0;margin: 0; width:100%;}
