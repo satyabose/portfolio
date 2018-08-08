@@ -92,9 +92,9 @@ article h2 {font:bold 16px/20px Arial, Helvetica, sans-serif;color:#FFFFFF;-moz-
 #rightmenu ul {float:left;width:100%;margin:0;padding:0;}
 #rightmenu ul li {list-style:none;margin:0;padding:0;border-bottom:1px solid #d5d5d5;float:left;width:100%;}
 #rightmenu ul li.first {}
-#rightmenu ul li span {font:bold 14px/18px Arial, Helvetica, sans-serif; text-transform: uppercase; color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;width:100%;}
-#rightmenu ul li span:hover {text-decoration:none;background:#f8f8f8; color:#677900}
-#rightmenu ul li span.active {text-decoration:none;background:#dcdcdc; color:#677900}
+#rightmenu ul li span {font:bold 14px/18px Arial, Helvetica, sans-serif; text-transform: uppercase; color:#393939;text-decoration:none;padding:10px 8px;margin:0;float:left;background:none;}
+/* #rightmenu ul li span:hover {text-decoration:none;background:#f8f8f8; color:#677900}
+#rightmenu ul li span.active {text-decoration:none;background:#dcdcdc; color:#677900} */
 #rightmenu ul li span img {margin: 0 10px 0 0;width: 32px;border-radius: 6px;}
 /* content */
 .content {float:left;width:100%;margin:0 0 29px 0;padding:0;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px;border-radius:0 0 2px 2px;background:#FFFFFF;-moz-box-shadow:0 0 6px 0.1px #d4d2d2;box-shadow:0 0 6px 0.1px #d4d2d2;-webkit-box-shadow:0 0 6px 0.1px #d4d2d2;behavior:url(PIE.htc);position:relative;border:1px solid #dbdada;}
@@ -293,11 +293,17 @@ width:auto;
 .content ul li {background: url("../images/tick.png") left 2px no-repeat; margin:0px; padding:0px 10px 20px 25px; list-style:none;}
 .skill-bg{
 	display: inline-block;
-	position: relative;
+    position: relative;
+    float: right;
+    margin-top: 5px;
 }
-.skills{
-	position: absolute;
-	top: 33%;
-	left: 28%;
-	font-size: 9px;
+#rightmenu ul li span.skills {
+    position: absolute;
+    top: 25%;
+    padding: 0 !important;
+    left: 7%;
+    font-size: 9px !important;
+    float: right !important;
+    width: 35px !important;
+    text-align: center;
 }
