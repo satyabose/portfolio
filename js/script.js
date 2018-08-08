@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 80,
-		color: "cornflowerblue",
+		color: "orange",
 		},
 		{
 		value: 20,
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 60,
-		color: "cornflowerblue",
+		color: "darkgrey",
 		},
 		{
 		value: 40,
@@ -49,7 +49,7 @@ $(document).ready(function(){
 	var data = [
 		{
 		value: 90,
-		color: "cornflowerblue",
+		color: "pink",
 		},
 		{
 		value: 10,
