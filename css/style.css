@@ -292,10 +292,16 @@ width:auto;
 .modal-body img{margin: auto !important;}
 .content ul li {background: url("../images/tick.png") left 2px no-repeat; margin:0px; padding:0px 10px 20px 25px; list-style:none;}
 .skill-bg{
+    width:100%;
     background: lightgray;
-    border-radius: 4px;
+}
+.skills{
     float: left;
     width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    color: white;
+    font-size: 11px;
 }
 .html {width: 90%; background-color: #4CAF50;}
 .css {width: 80%; background-color: #2196F3;}
