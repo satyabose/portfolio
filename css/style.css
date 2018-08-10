@@ -320,11 +320,14 @@ width:auto;
 	border-radius: 20px !important;
 	margin-left: 10px !important;
 	color: white !important;
+	box-shadow: 0 0 5px #cfcfcf !important;
+	outline: none !important;
 }
 .btn-chips.default{
 background: #ffffff !important;
-	border-color: #cfcffc !important;
-	border-radius: 20px !important;
-	margin-left: 10px !important;
-	color: #333 !important;
+background: #e9e9e9!important;
+    border-color: #cfcfcf!important;
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+    color: #333 !important;
 }
