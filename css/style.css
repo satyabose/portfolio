@@ -314,3 +314,15 @@ width:auto;
     width: 35px !important;
     text-align: center;
 }
+.btn-chips{
+	background: #97ae0e;
+    border-color: #97ae0e;
+    border-radius: 20px;
+    color: white;
+}
+.btn-chips.default{
+background: #ffffff;
+    border-color: #cfcfcf;
+    border-radius: 20px;
+    color: #333;
+}
