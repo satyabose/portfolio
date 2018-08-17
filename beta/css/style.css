@@ -1750,6 +1750,12 @@ h3.title {
     outline: none !important;
 }
 /*END*/
+.view-fourth .mask span i {
+    font-size: 2em;
+    color: white;
+    top: 40%;
+    position: relative;
+}
 .noPadding{
   padding: 0 !important;
 }
