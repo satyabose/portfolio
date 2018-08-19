@@ -540,7 +540,7 @@ h3.title {
 	position: absolute;
 	bottom: -84%;
 	right: 0;
-	background-color: #97AE0E;
+	background-color: rgba(153,204,45,0.90);
 	padding: 3% 10%;
 	text-align: center;
 	-o-transition: all 0.3s ease;
@@ -1154,8 +1154,8 @@ h1 a.navbar-brand {
     margin-top: 4em;
 }
 .view {
-    width: 293px;
-    height: 200px;
+    width: 100%;
+/*     height: 200px; */
 }
 .view .mask, .view .content {
     width: 280px;
@@ -1233,25 +1233,25 @@ h3.title {
 .team-info {
     margin-top: 3em;
 }
-.team-grids {
+/* .team-grids {
     float: left;
     width: 25%;
     padding: 0 .5em;
-}
+} */
 .captn h4 {
     margin-top: 0;
 	font-size: 1.6em;
 }
-.work-row-grids {
+/* .work-row-grids {
     width: 30%;
 	margin: 1em 0 3em;
-}
+} */
 .work-row-grids p {
     width: 90%;
 }
 .view {
-    width: 220px;
-    height: 151px;
+    width: 100%;
+/*     height: 151px; */
 }
 .view .mask, .view .content {
     width: 201px;
@@ -1316,10 +1316,10 @@ h3.title {
     font-size: 2em;
     padding: 0.8em 0.2em;
 }
-.work-row-grids {
+/* .work-row-grids {
     width: 29%;
     margin: 1em 1em 3em;
-}
+} */
 }
 @media(max-width:640px){
 .header-info {
@@ -1408,11 +1408,11 @@ h3.title {
 .special h6 {
     font-size: 1em;
 }
-.work-row-grids {
+/* .work-row-grids {
     width: 33%;
     margin: 1em 0;
     float: left;
-}
+} */
 .view {
     width: 187px;
     height: 130px;
@@ -1489,8 +1489,9 @@ h3.title {
     margin-top: 2em;
 }
 .team-grids {
-    width: 50%;
-    padding: 1em;
+/*     width: 50%;
+    padding: 1em; */
+   margin-bottom: 1em;
 }
 .team-grids a .captn {
     bottom: -85%;
@@ -1516,8 +1517,8 @@ h3.title {
     font-size: 1.2em;
 }
 .view {
-    width: 206px;
-    height: 141px;
+    width: 100%;
+/*     height: 141px; */
 }
 .view .mask, .view .content {
     width: 195px;
@@ -1635,9 +1636,9 @@ h3.title {
 .team-grids {
     padding: 0.3em;
 }
-.work-row-grids {
+/* .work-row-grids {
     width: 50%;
-}
+} */
 .work-row-grids span.glyphicon {
     padding: 0.7em 0;
 }
@@ -1656,8 +1657,8 @@ h3.title {
     bottom: -80%;
 }
 .view {
-    width: 260px;
-    height: 162px;
+    width:100%;
+/*     height: 162px; */
 }
 .view .mask, .view .content {
     width: 242px;
