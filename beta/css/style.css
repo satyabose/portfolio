@@ -1250,7 +1250,7 @@ h3.title {
     width: 90%;
 }
 .view {
-    width: 50%;
+    width: 46%;
 /*     height: 151px; */
 }
 .view .mask, .view .content {
@@ -1320,6 +1320,9 @@ h3.title {
     width: 29%;
     margin: 1em 1em 3em;
 } */
+.team-info .col-md-3{
+width: 50%;
+}
 }
 @media(max-width:640px){
 .header-info {
@@ -1517,7 +1520,7 @@ h3.title {
     font-size: 1.2em;
 }
 .view {
-    width: 100%;
+    width: 46%;
 /*     height: 141px; */
 }
 .view .mask, .view .content {
