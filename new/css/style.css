@@ -211,7 +211,7 @@ div#bs-example-navbar-collapse-1 {
 }
 /*--//top-nav--*/
 .banner{
-	background: url(../images/banner.jpg) no-repeat 0px -60px;
+/* 	background: url(../images/banner.jpg) no-repeat 0px -60px;
 	background-size: cover;
 	min-height:600px;
 	position:relative;
@@ -220,7 +220,8 @@ div#bs-example-navbar-collapse-1 {
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-webkit-box-shadow: inset 0px 0px 12px #999;
-	box-shadow: inset 0px 0px 12px #999;
+	box-shadow: inset 0px 0px 12px #999; */
+	border-bottom: 1px solid #cfcfcf;
 }
 .banner-title {
     padding: 14em 0px;
@@ -1087,9 +1088,9 @@ h2.resp-accordion {
 .callbacks_tabs {
    left: 7%;
 }
-.banner {
+/* .banner {
     background-position:-131px 0px;
-}
+} */
 .callbacks_nav {
     left: 1%;
 }
@@ -1110,21 +1111,21 @@ h3.title {
 .banner-title {
     padding: 11em 0;
 }
-.banner {
+/* .banner {
    min-height: 530px;
-}
+} */
 .banner-text h2 {
     font-size: 3.8em;
     color: #fff;
 }
 .work-row-grids {
     margin: 1em 0 4em;
-}	
+}
 }
 @media(max-width:1080px){
-.banner {
+/* .banner {
     min-height: 450px;
-}
+} */
 h1 a.navbar-brand {
     font-size: 1.8em;
     padding: .65em 0;
@@ -1210,11 +1211,11 @@ h1 a.navbar-brand {
     left: 11%;
     bottom: 16%;
 }
-.banner {
+/* .banner {
 	min-height: 380px;
 	-webkit-box-shadow: inset 0px 0px 18px #000000;
 	box-shadow: inset 0px 0px 18px #000000;
-}
+} */
 .callbacks_tabs li {
     margin: 0 .3em;
 }
@@ -1399,9 +1400,9 @@ button.navbar-toggle {
 .banner-title {
     padding: 5em 0;
 }
-.banner {
+/* .banner {
     min-height: 330px;
-}
+} */
 .banner-text h2 {
     font-size: 3em;
 }
@@ -1491,11 +1492,11 @@ input.form-control {
 .banner-text h2 {
     font-size: 2.6em;
 }
-.banner {
+/* .banner {
     min-height: 259px;
 	-webkit-box-shadow: inset 0px 0px 18px #000000;
 	box-shadow: inset 0px 0px 18px #000000;
-}
+} */
 .banner-text {
     margin-left: 3em;
 }
