@@ -65,22 +65,22 @@ body:after {
 }
 
 .lb-loader {
-  position: absolute;
-  top: 43%;
-  left: 0;
-  height: 25%;
-  width: 100%;
-  text-align: center;
-  line-height: 0;
+position: absolute;
+    top: 38%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
 }
 
 .lb-cancel {
     display: block;
-    height: 90px;
+    height: 128px;
     margin: 0 auto;
     background: url(../images/loading.gif) no-repeat;
     background-size: cover;
-    background-position-y: -75px;
+    background-position-y: -50px;
 }
 
 .lb-nav {
