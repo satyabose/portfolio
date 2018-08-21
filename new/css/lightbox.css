@@ -75,11 +75,12 @@ body:after {
 }
 
 .lb-cancel {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-  background: url(../images/loading.gif) no-repeat;
+    display: block;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../images/loading.gif) no-repeat;
+    background-size: cover;
+    background-position-y: -75px;
 }
 
 .lb-nav {
