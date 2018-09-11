@@ -1823,3 +1823,8 @@ h3.title {
 .ml-2{
   margin-left: 20px !important;
 }
+small.readmore {
+    color: #97AE0E;
+    font-weight: bold;
+    font-size: 1em;
+}
