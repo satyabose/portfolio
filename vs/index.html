@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vikas Setu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script>
+        $(document).ready(function () {
+            $('#Carousel').carousel({
+                interval: 5000
+            });
+            $('#blogCarousel').carousel({
+                interval: 5000
+            });
+        }); 
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <div class="">
+        <header>
+            <section class="top-nav fixed-top">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/logo.png">
+                        </a>
+                        <div class="col-md-4 login-response">
+                            <form class="my-2 my-lg-0">
+                                    <a href="#" class="login loginBtn"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
+                                <button class="btn btn-primary pt-2 px-4 btn-sm my-sm-0 signupBtn" type="button">SIGN UP</button>
+                            </form>
+                        </div>
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+                            <span class="navbar-toggler-icon fa fa-bars"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ml-4" id="navb">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">How it Works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Browser Jobs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Employers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="candidates-grid.html">Candidates</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">News</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0 login-hide">
+                                    <a href="#" class="login loginBtn"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
+                                <button class="btn btn-primary pt-2 px-4 btn-sm my-sm-0 signupBtn" type="button">SIGN UP</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <section class="top-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 p-0">
+                            <h1 class="baner-heading wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">Job Board
+                                <br> Special for you</h1>
+                            <h2 class="sub-heading wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">We have 69.368 great job
+                                <br> offers you deserve!</h2>
+                            <div class="col-md-12 mt-5 p-0 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+                                <button class="btn btn-dark mr-3 px-5 text-cream" type="button">How It Works</button>
+                                <a href="javascript:void(0)" class="browse">Browse
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 graphics p-0 pt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                            <img src="images/graphics.png" class="mt-4 img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="find-panel pt-5 pb-5">
+                <div class="container p-0 text-center">
+                    <div class="col-md-12 p-0 home find-tab">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link job active" data-toggle="tab" href="#job">
+                                    <i class="fa fa-user"></i> Find a job</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link candidate" data-toggle="tab" href="#candidate">
+                                    <i class="fa fa-user"></i> Find a Candidate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link service" data-toggle="tab" href="#service">
+                                    <i class="fas fa-cogs"></i> Find a Service</a>
+                            </li>
+                            <small class="offer">We have 69.368 job offers for you! Browse job offers by
+                                <a href="javascript:void(0)" class="browse">Category</a>
+                            </small>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content mb-3">
+                            <div id="job" class="container tab-pane active">
+                                <div class="input-group pt-4 pb-4 pl-2 pr-2">
+                                    <div class="col-md-3 p-0 keywords">
+                                        <input type="text" class="form-control mb-3" placeholder="Keywords">
+                                        <small>* Search keywords e.g. web design</small>
+                                    </div>
+                                    <div class="col-md-4 p-0 specialisms">
+                                        <select class="form-control mb-3 border-left-0">
+                                            <option>All Specialisms</option>
+                                            <option>Developer</option>
+                                            <option>Designer</option>
+                                            <option>Accountant</option>
+                                            <option>Adminstrator</option>
+                                        </select>
+                                        <small class="pb-2">* Filter by specialisms e.g. developer, designer</small>
+                                    </div>
+                                    <div class="col-md-3 p-0 location">
+                                        <input class="form-control border-left-0" placeholder="All Locations">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-md-2 p-0">
+                                        <button class="btn btn-success widht-100" type="submit">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="candidate" class="container tab-pane fade">
+                                <div class="input-group pt-4 pb-4 pl-2 pr-2">
+                                    <div class="col-md-3 p-0 keywords">
+                                        <input type="text" class="form-control mb-3" placeholder="Keywords">
+                                        <small>* Search keywords e.g. web design</small>
+                                    </div>
+                                    <div class="col-md-4 p-0 specialisms">
+                                        <select class="form-control mb-3 border-left-0">
+                                            <option>All Specialisms</option>
+                                            <option>Developer</option>
+                                            <option>Designer</option>
+                                            <option>Accountant</option>
+                                            <option>Adminstrator</option>
+                                        </select>
+                                        <small>* Filter by specialisms e.g. developer, designer</small>
+                                    </div>
+                                    <div class="col-md-3 p-0 location">
+                                        <input class="form-control border-left-0" placeholder="All Locations">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-md-2 p-0">
+                                        <button class="btn btn-success widht-100" type="submit">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="service" class="container tab-pane fade">
+                                <div class="input-group pt-4 pb-4 pl-2 pr-2">
+                                    <div class="col-md-3 p-0 keywords">
+                                        <input type="text" class="form-control mb-3" placeholder="Keywords">
+                                        <small>* Search keywords e.g. web design</small>
+                                    </div>
+                                    <div class="col-md-4 p-0 specialisms">
+                                        <select class="form-control mb-3 border-left-0">
+                                            <option>All Specialisms</option>
+                                            <option>Developer</option>
+                                            <option>Designer</option>
+                                            <option>Accountant</option>
+                                            <option>Adminstrator</option>
+                                        </select>
+                                        <small>* Filter by specialisms e.g. developer, designer</small>
+                                    </div>
+                                    <div class="col-md-3 p-0 location">
+                                        <input class="form-control border-left-0" placeholder="All Locations">
+                                        <i class="fa fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-md-2 p-0">
+                                        <button class="btn btn-success widht-100" type="submit">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="pt-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Brows Service by Specialism</h3>
+                    <h4 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</h4>
+                </div>
+            </section>
+        </header>
+        <section class="categories pb-5 ">
+            <div class="container mb-5 mt-5 p-0">
+                <div class="categories-bg">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-user-md"></i>
+                                <b>Healthcare</b>
+                                <span>369 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0" data-wow-duration="2s" data-wow-delay=".5s">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-chart-line"></i>
+                                <b>Accounting & Finance</b>
+                                <span>307 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center active">
+                                <i class="fas fa-user-tie"></i>
+                                <b>IT Contractor</b>
+                                <span>260 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-car"></i>
+                                <b>Motoring & Automotive</b>
+                                <span>214 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-user"></i>
+                                <b>Construction & Facilities</b>
+                                <span>186 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-home"></i>
+                                <b>Estate Agency</b>
+                                <span>127 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-concierge-bell"></i>
+                                <b>Restaurant & Food Service</b>
+                                <span>85 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 p-0">
+                            <a href="#" class="category-box text-center">
+                                <i class="fas fa-handshake"></i>
+                                <b>Sales & Marketing</b>
+                                <span>42 open positions</span>
+                                <span>
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 px-0 py-5 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".25s">
+                    <button class="btn btn-success text-uppercase px-5 text-cream">Browse All Categories</button>
+                </div>
+            </div>
+        </section>
+        <section class="employee-tab-bg">
+            <div class="container">
+                <div class="col-md-12 px-0 employee-tab">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item wow slideInLeft">
+                            <a class="nav-link lookjob active" data-toggle="tab" href="#lookJob">
+                                <div class="row m-0">
+                                    <div class="col-md-8 pt-4 content">
+                                        <h2>Looking for a Job</h2>
+                                        <p>Consectetuer adipiscing elit, sed diam nonummy euismod.</p>
+                                        <p>
+                                            <b>69.368 Open Positions</b>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 pr-4 pt-5 img">
+                                        <img src="images/look-job-img.png" class="img" />
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item wow slideInRight">
+                            <a class="nav-link employee" data-toggle="tab" href="#hireEmployee">
+                                <div class="row m-0">
+                                    <div class="col-md-8 pt-4 content">
+                                        <h2>Hire an Employee</h2>
+                                        <p>Mirum est notare quam littera gothica, nunc putamus.</p>
+                                        <p>
+                                            <b>238.900 Candidates</b>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 pr-4 pt-5 img">
+                                        <img src="images/hire-employee-img.png" class="img" />
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content mb-3">
+                        <div id="lookJob" class="container p-0 tab-pane active">
+                            <div class="col-md-12 px-0 py-4 text-right wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                <a href="javascript:void(0)" class="text-lightgrey">
+                                    <i class="fa fa-pencil-alt mr-2"></i> Sign Up as employee</a>
+                            </div>
+                            <ul class="custom-list p-0 m-0">
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Data Center Support Specialist Engineer</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Part Time</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">IT Contractor</a>
+                                                <span>
+                                                    <span class="text-lightgrey">6 hours ago </span>London, United Kingdom</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-boing.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="active wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Visualizer, web designer Max 3Ds, Cinema 4D</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Full Time</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Digital & Creative</a>
+                                                <span>
+                                                    <span class="text-lightgrey">23 hours ago </span>New York, USA</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-redtulip.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Regional Sales Manager</h2>
+                                                <button class="btn-custom btn-sm btn-danger">Temporary</button>
+                                                <a href="javasctipt:void(0)" class="text-lightgrey ml-4">
+                                                    <i class="fa fa-heart"></i>
+                                                    <small>Add to Shortlist</small>
+                                                </a>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Sales & Marketing</a>
+                                                <span>
+                                                    <span class="text-lightgrey">6 days ago </span>Melbourne, Australia</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-unicum.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Front End and Back End Developer</h2>
+                                                <button class="btn-custom btn-sm btn-warning">Internship</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Web, Mobile & Software Dev</a>
+                                                <span>
+                                                    <span class="text-lightgrey">1 week ago </span>California, USA</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-infinite.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Professional Copywriter for Commercial Advertising</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Freelance</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Writing</a>
+                                                <span>
+                                                    <span class="text-lightgrey">3 months ago </span>Cologne, Germany</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-invato.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="hireEmployee" class="container p-0 tab-pane fade">
+                            <div class="col-md-12 px-0 py-4 text-right">
+                                <a href="javascript:void(0)" class="text-lightgrey">
+                                    <i class="fa fa-pencil-alt mr-2"></i> Sign Up as employee</a>
+                            </div>
+                            <ul class="custom-list p-0 m-0">
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Data Center Support Specialist Engineer</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Part Time</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">IT Contractor</a>
+                                                <span>
+                                                    <span class="text-lightgrey">6 hours ago </span>London, United Kingdom</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-boing.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="active wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Visualizer, web designer Max 3Ds, Cinema 4D</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Full Time</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Digital & Creative</a>
+                                                <span>
+                                                    <span class="text-lightgrey">23 hours ago </span>New York, USA</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-redtulip.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Regional Sales Manager</h2>
+                                                <button class="btn-custom btn-sm btn-danger">Temporary</button>
+                                                <a href="javasctipt:void(0)" class="text-lightgrey ml-4">
+                                                    <i class="fa fa-heart"></i>
+                                                    <small>Add to Shortlist</small>
+                                                </a>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Sales & Marketing</a>
+                                                <span>
+                                                    <span class="text-lightgrey">6 days ago </span>Melbourne, Australia</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-unicum.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Front End and Back End Developer</h2>
+                                                <button class="btn-custom btn-sm btn-warning">Internship</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Web, Mobile & Software Dev</a>
+                                                <span>
+                                                    <span class="text-lightgrey">1 week ago </span>California, USA</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-infinite.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <div>
+                                                <h2>Professional Copywriter for Commercial Advertising</h2>
+                                                <button class="btn-custom btn-sm btn-primary-1">Freelance</button>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="javasctipt:void(0)" class="mr-4">Writing</a>
+                                                <span>
+                                                    <span class="text-lightgrey">3 months ago </span>Cologne, Germany</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-sm-4">
+                                            <a href="javasctipt:void(0)">
+                                                <img src="images/icon-invato.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 clearfix py-4 px-0 load-more-list">
+                    <a href="javasctipt:void(0)" class="mt-2 text-success float-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">Load More Listings
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                    <button class="btn btn-outline-secondary btn-sm float-right py-2 px-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                        <i class="fa fa-at"></i> Email Me Jobs Like These</button>
+                </div>
+                <div class="row app-store mt-sm-1 mt-5">
+                    <div class="col-md-6 text-right pr-5 img wow wobble" data-wow-duration="1s" data-wow-delay=".25s">
+                        <!-- <img src="images/bg-mobile.png" class="mr-3 img-fluid" /> -->
+                    </div>
+                    <div class="col-md-6 content">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">Get Vikas Setu App for your mobile</h3>
+                        <h4 class="mt-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">Qirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
+                            humanitatis per seacula quarta decima et quinta decima.</h4>
+                        <div class="mt-5 mt-sm-3 pb-4 app-button wow fadeInRight" data-wow-duration="1s" data-wow-delay=".25s">
+                            <a href="javasctipt:void(0)" class="mr-5">
+                                <img src="images/icon-apple-store.png" class="apple" />
+                            </a>
+                            <a href="javasctipt:void(0)" class="">
+                                <img src="images/icon-google-store.png" class="android" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="profile py-5">
+            <div class="container py-5">
+                <div class="col-md-12 p-0 text-center">
+                    <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">A Few Words from Happy Candidates</h3>
+                    <h4 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Sed diam nonummy nibh euismod tincidunt.</h4>
+                </div>
+                <div class="row py-3 carousel">
+                    <div class="col-md-12 p-0">
+                        <div id="Carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#Carousel" data-slide-to="1"></li>
+                                <li data-target="#Carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Carousel items -->
+                            <div class="carousel-inner mt-5 pb-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-1.png" class="circle">
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                                    nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Jennifer Smith</b>
+                                                    <span>Professional Copywriter</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-2.png" class="circle">
+                                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+                                                    litterarum formas humanitatis per seacula quarta.</p>
+                                                <div>
+                                                    <b>Kevin Parker</b>
+                                                    <span>UX/UI Graphic Designer</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-3.png" class="circle">
+                                                <p>Cudipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Sandy Miranda</b>
+                                                    <span>Marketing Director</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-1.png" class="circle">
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                                    nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Jennifer Smith</b>
+                                                    <span>Professional Copywriter</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-2.png" class="circle">
+                                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+                                                    litterarum formas humanitatis per seacula quarta.</p>
+                                                <div>
+                                                    <b>Kevin Parker</b>
+                                                    <span>UX/UI Graphic Designer</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-3.png" class="circle">
+                                                <p>Cudipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Sandy Miranda</b>
+                                                    <span>Marketing Director</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-1.png" class="circle">
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                                    nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Jennifer Smith</b>
+                                                    <span>Professional Copywriter</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-2.png" class="circle">
+                                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+                                                    litterarum formas humanitatis per seacula quarta.</p>
+                                                <div>
+                                                    <b>Kevin Parker</b>
+                                                    <span>UX/UI Graphic Designer</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="javasctipt:void(0)" class="profile-card">
+                                                <img src="images/profile-3.png" class="circle">
+                                                <p>Cudipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                                                <div>
+                                                    <b>Sandy Miranda</b>
+                                                    <span>Marketing Director</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="signup py-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+                        <h3>Get to start the Vikas Setu right now!</h3>
+                        <h4>Sed diam nonummy nibh euismod tincidunt.</h4>
+                    </div>
+                    <div class="col-md-4 pt-sm-3 wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">
+                        <button class="btn btn-outline-secondary">
+                            <i class="fa fa-user mr-2"></i> Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog py-5">
+            <div class="container text-center mb-5">
+                <h3 class="wow slideInLeft" data-wow-duration="2s" data-wow-delay=".5s">Most Recent From The Blog</h3>
+                <h4 class="wow slideInRight" data-wow-duration="2s" data-wow-delay=".5s">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</h4>
+                <div class="row py-5">
+                    <div class="col-md-12">
+                        <div id="blogCarousel" class="carousel slide">
+
+                            <!-- <ol class="carousel-indicators">
+                                <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#blogCarousel" data-slide-to="1"></li>
+                                <li data-target="#blogCarousel" data-slide-to="2"></li>
+                            </ol> -->
+
+                            <!-- Carousel items -->
+                            <div class="carousel-inner mt-5 pb-5 wow slideInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Startup</button>
+                                                    <img class="card-img-top" src="images/blog-img-1.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Business</button>
+                                                    <img class="card-img-top" src="images/blog-img-2.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">News</button>
+                                                    <img class="card-img-top" src="images/blog-img-3.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--.row-->
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Startup</button>
+                                                    <img class="card-img-top" src="images/blog-img-1.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Business</button>
+                                                    <img class="card-img-top" src="images/blog-img-2.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">News</button>
+                                                    <img class="card-img-top" src="images/blog-img-3.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--.row-->
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Startup</button>
+                                                    <img class="card-img-top" src="images/blog-img-1.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">Business</button>
+                                                    <img class="card-img-top" src="images/blog-img-2.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card px-0">
+                                                <a href="javasctipt:void(0)">
+                                                    <button class="button">News</button>
+                                                    <img class="card-img-top" src="images/blog-img-3.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+                                                        <p class="card-text">
+                                                            <b>29 May 2017</b>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--.row-->
+                                </div>
+
+                            </div>
+                            <a data-slide="prev" href="#blogCarousel" class="left carousel-control wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">‹</a>
+                            <a data-slide="next" href="#blogCarousel" class="right carousel-control wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">›</a>
+                        </div>
+                        <!--.Carousel-->
+
+                    </div>
+                </div>
+                <div class="col-md-12 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".25s">
+                    <button class="btn btn-till px-5">All News</button>
+                </div>
+            </div>
+
+        </section>
+        <section class="footer pt-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <img src="images/logo-footer.png">
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-3 text-right">
+                        <section class="time">
+                            <span>
+                                <b>0000 000 000</b>
+                            </span>
+                            <span class="text-light">Mon-Fri 9am-6pm</span>
+                        </section>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-3">
+                        <a href="javasctipt:void(0)">
+                            <i class="fa fa-at"></i>
+                            <small>support@vikassetu.com</small>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 social pt-3">
+                        <a href="">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-0">
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. Claritas est etiam processus dynamicus, qui sequitur
+                            mutationem consuetudium lectorum.</p>
+                        <a href="#" class="more mt-3">Read More
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 row pr-0">
+                        <div class="col-sm-6 col-md-4 pt-3 pr-0">
+                            <h4>For Candidates</h4>
+                            <ul class="link">
+                                <li class="fa fa-caret-right">
+                                    <a href="javasctipt:void(0)">Browse Jobs</a>
+                                </li>
+                                <li class="fa fa-caret-right">
+                                    <a href="javasctipt:void(0)">Browse Companies</a>
+                                </li>
+                                <li class="fa fa-caret-right active">
+                                    <a href="javasctipt:void(0)">Categories</a>
+                                    <li class="fa fa-caret-right">
+                                        <a href="javasctipt:void(0)">Submit Resume</a>
+                                        <li class="fa fa-caret-right">
+                                            <a href="javasctipt:void(0)">Dashboard</a>
+                                        </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-4 pt-3 pr-0">
+                            <h4>For Employers</h4>
+                            <ul class="link">
+                                <li class="fa fa-caret-right">
+                                    <a href="javasctipt:void(0)">Browse Candidates</a>
+                                </li>
+                                <li class="fa fa-caret-right">
+                                    <a href="javasctipt:void(0)">Post a Job</a>
+                                </li>
+                                <li class="fa fa-caret-right">
+                                    <a href="javasctipt:void(0)">Dashboard</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 pt-sm-4 pr-0">
+                            <h4>Sign Up for Weekly Newsletter</h4>
+                            <small>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</small>
+                            <div class="input-group mt-4">
+                                <input type="text" class="form-control" placeholder="Email Address" id="mail" name="email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit">
+                                        <i class="fa fa-envelope"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-link mt-4 py-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-7 pr-0">
+                            <ul class="f-link">
+                                <li class="active">
+                                    <a href="javasctipt:void(0)">How it Works</a>
+                                </li>
+                                <li>
+                                    <a href="javasctipt:void(0)">Browse Jobs</a>
+                                </li>
+                                <li>
+                                    <a href="javasctipt:void(0)">Employers</a>
+                                </li>
+                                <li>
+                                    <a href="candidates-grid.html">Candidates</a>
+                                </li>
+                                <li>
+                                    <a href="javasctipt:void(0)">News</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 col-md-12 col-lg-5 py-sm-3 py-md-0 text-right copyright">
+                            <span class="text-lightgrey">
+                                <small>Copyright © 2020
+                                    <a href="">
+                                        <small>Vikas Setu</small>
+                                    </a>. Allright Reserved</small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+   
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!--smoth-scrolling-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".loginBtn").click(function () {
+                $("#loginModal").modal();
+            });
+            $(".signupBtn").click(function () {
+                $("#signupModal").modal();
+            });
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;">Go to top
+        <i class="fas fa-arrow-right"></i>
+    </a>
+    <div class="modal fade login-popup" id="loginModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body popup">
+                    <div class="sub-text">For fast login use your social account.</div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link fb active" data-toggle="tab" href="#fb">
+                                <i class="fab fa-facebook-f"></i>
+                                <div><small><span>Log in with</span><b>Facebook</b></small></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link twit" data-toggle="tab" href="#twit">
+                                <i class="fab fa-twitter"></i>
+                                <div><small><span>Log in with</span><b>Twitter</b></small></div>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="fb" class="container tab-pane clearfix active">
+                                <div class="form-container">
+                                        <div class="bg-white clearfix">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="email">Username or Email Address</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="test@gmail.com" name="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="pwd">Password</label>
+                                                    <small class="text-orange float-right">
+                                                        <a href="" class="text-orange">Lost your password?</a>
+                                                    </small>
+                                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                                </div>
+                                                <button type="submit" class="btn btn-success float-left px-5">Login</button>
+                                                <div class="form-group form-check float-right pt-2">
+                                                   <small> <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                                    </label></small>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div id="twit" class="container tab-pane clearfix fade">
+                                <div class="form-container">
+                                        <div class="bg-white clearfix">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="email">Username or Email Address</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="test@gmail.com" name="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="pwd">Password</label>
+                                                    <small class="text-orange float-right">
+                                                        <a href="" class="text-orange">Lost your password?</a>
+                                                    </small>
+                                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                                </div>
+                                                <button type="submit" class="btn btn-success float-left px-5">Login</button>
+                                                <div class="form-group form-check float-right pt-2">
+                                                   <small> <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                                    </label></small>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="modal fade signup-popup" id="signupModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <!-- <div class="modal-header">
+                  
+                </div> -->
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <!-- Modal body -->
+                <div class="row modal-body popup">
+                    <ul class="nav nav-tabs col-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-center regcandidate active" data-toggle="tab" href="#regcandidate">
+                                <img src="images/canidiate-tab-icon.png" />
+                                <div>I am a candidate</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center regemployee" data-toggle="tab" href="#regemployee">
+                                    <img src="images/employee-tab-icon.png" />
+                                <div>I am an employer</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link text-center regservices" data-toggle="tab" href="#regservices">
+                                        <img src="images/services-tab-icon.png" />
+                                    <div>Services</div>
+                                </a>
+                            </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content col-md-9 pl-0 py-5">
+                        <div id="regcandidate" class="container tab-pane active">
+                            <div><b class="heading">Register as candidate</b> <span class="text-light ml-3">All fields are required!</span></div>
+                            <div class="form-container">
+                                <div class="bg-white clearfix">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="fname">Your First Name</label>
+                                                    <input type="input" class="form-control" id="fname" placeholder="First Name" name="fname">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="lname">Your Last Name</label>
+                                                    <input type="input" class="form-control" id="lname" placeholder="last Name" name="lname">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="email">Your Last Name</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="you@sitename.com" name="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="email">Your Last Name</label>
+                                                        <input type="password" class="form-control" id="pwd" placeholder="********" name="pswd">
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-6 col-lg-3"><button type="button" class="btn btn-success float-left px-5">Signup</button></div>
+                                            <div class="col-sm-12 col-md-6 col-lg-9">
+                                                    <div class="row">
+                                                            <div class="col-sm-12 col-md-12 col-lg-4 pt-md-0 pb-md-3 pt-lg-3 pr-0"><b>Signup / Signin with:</b></div>
+                                                            <div class="col-sm-12 col-md-12 col-lg-8">
+                                                                <ul class="social-button">
+                                                                    <li>
+                                                                        <a class="fb" href="javascript:void(0)">
+                                                                            <i class="fab fa-facebook-f"></i>
+                                                                            <div>
+                                                                                <small>
+                                                                                    <span>Log in with</span>
+                                                                                    <b>Facebook</b>
+                                                                                </small>
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="twit" href="javascript:void(0)">
+                                                                            <i class="fab fa-twitter"></i>
+                                                                            <div>
+                                                                                <small>
+                                                                                    <span>Log in with</span>
+                                                                                    <b>Twitter</b>
+                                                                                </small>
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="regemployee" class="container tab-pane fade">
+                                <div><b class="heading">Register as employee</b> <span class="text-light ml-3">All fields are required!</span></div>
+                                <div class="form-container">
+                                        <div class="bg-white clearfix">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="fname">Your First Name</label>
+                                                            <input type="input" class="form-control" id="fname" placeholder="First Name" name="fname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="lname">Your Last Name</label>
+                                                            <input type="input" class="form-control" id="lname" placeholder="last Name" name="lname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="email">Your Last Name</label>
+                                                            <input type="email" class="form-control" id="email" placeholder="you@sitename.com" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="email">Your Last Name</label>
+                                                                <input type="password" class="form-control" id="pwd" placeholder="********" name="pswd">
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-6 col-lg-3"><button type="button" class="btn btn-success float-left px-5">Signup</button></div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-9">
+                                                            <div class="row">
+                                                                    <div class="col-sm-12 col-md-12 col-lg-4 pt-md-0 pb-md-3 pt-lg-3 pr-0"><b>Signup / Signin with:</b></div>
+                                                                    <div class="col-sm-12 col-md-12 col-lg-8">
+                                                                        <ul class="social-button">
+                                                                            <li>
+                                                                                <a class="fb" href="javascript:void(0)">
+                                                                                    <i class="fab fa-facebook-f"></i>
+                                                                                    <div>
+                                                                                        <small>
+                                                                                            <span>Log in with</span>
+                                                                                            <b>Facebook</b>
+                                                                                        </small>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="twit" href="javascript:void(0)">
+                                                                                    <i class="fab fa-twitter"></i>
+                                                                                    <div>
+                                                                                        <small>
+                                                                                            <span>Log in with</span>
+                                                                                            <b>Twitter</b>
+                                                                                        </small>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div id="regservices" class="container tab-pane clearfix fade">
+                                <div><b class="heading">Register as services</b> <span class="text-light ml-3">All fields are required!</span></div>
+                                <div class="form-container">
+                                        <div class="bg-white clearfix">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="fname">Your First Name</label>
+                                                            <input type="input" class="form-control" id="fname" placeholder="First Name" name="fname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="lname">Your Last Name</label>
+                                                            <input type="input" class="form-control" id="lname" placeholder="last Name" name="lname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="email">Your Last Name</label>
+                                                            <input type="email" class="form-control" id="email" placeholder="you@sitename.com" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="email">Your Last Name</label>
+                                                                <input type="password" class="form-control" id="pwd" placeholder="********" name="pswd">
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-6 col-lg-3"><button type="button" class="btn btn-success float-left px-5">Signup</button></div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-9">
+                                                            <div class="row">
+                                                                    <div class="col-sm-12 col-md-12 col-lg-4 pt-md-0 pb-md-3 pt-lg-3 pr-0"><b>Signup / Signin with:</b></div>
+                                                                    <div class="col-sm-12 col-md-12 col-lg-8">
+                                                                        <ul class="social-button">
+                                                                            <li>
+                                                                                <a class="fb" href="javascript:void(0)">
+                                                                                    <i class="fab fa-facebook-f"></i>
+                                                                                    <div>
+                                                                                        <small>
+                                                                                            <span>Log in with</span>
+                                                                                            <b>Facebook</b>
+                                                                                        </small>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="twit" href="javascript:void(0)">
+                                                                                    <i class="fab fa-twitter"></i>
+                                                                                    <div>
+                                                                                        <small>
+                                                                                            <span>Log in with</span>
+                                                                                            <b>Twitter</b>
+                                                                                        </small>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
